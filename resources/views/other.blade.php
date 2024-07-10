@@ -13,10 +13,8 @@
   <script src="https://js.pusher.com/8.2.0/pusher.min.js"></script>
 </head>
 <body>
-    
    <span style="font-wight:bold; font-size:40px">Title:</span><span id="selectedOption"></span><br>
     <span style="font-wight:bold; font-size:40px">Author:</span><span id="selectedOption2"></span>
-
     <script>
         setTimeout(() => {
             window.Echo.channel('postchannel')
